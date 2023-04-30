@@ -1,0 +1,305 @@
+.productlap p{
+    font-size: 14px;
+}
+.productlap-image img{
+    width: 70%;
+    justify-content: center;
+}
+.productlap-image .ip-13{
+width: 50%;
+}
+.productlap-card{
+    display: flex;
+}
+.productlAp{
+    display:inline-block;
+}
+.productlap-details .btn{
+    display: flex;
+    color: rgb(212, 46, 27);
+}
+.productlap-details button{
+    margin-left: 80px;
+    top: 0px;
+    background-color: rgb(135, 170, 216);
+}
+.productlap-card{
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    
+    }
+    .productlap-wrapper{
+        display: flex;
+    }
+    .productlap-card:hover .action{
+        right: 20px;
+    }
+    .productlap-card .productlap-image> img:last-child{
+        display: none;
+    }
+    .productlap-card:hover .productlap-image> img:nth-child(1){
+        display: none;
+    }
+    .productlap-card:hover .productlap-image> img:last-child{
+        display: block;
+    }
+   .product-card{
+padding: 15px;
+background-color: white;
+border-radius: 10px;
+margin-bottom: 10px;
+margin-right: 10px;
+
+}
+.product-wrapper{
+    display: flex;
+}
+.product-card:hover .action{
+    right: 20px;
+}
+.product-card .product-image> img:last-child{
+    display: none;
+}
+.product-card:hover .product-image> img:nth-child(1){
+    display: none;
+}
+.product-card:hover .product-image> img:last-child{
+    display: block;
+}
+.product-card .product-image {
+    height: 250px;
+}
+.product-card .product-image img {
+    object-fit: contain;
+}
+.product-image img{
+    width: 100%;
+}
+.product-image .apple-watch1{
+    width: 60%;
+    height: auto;
+}
+.product-image .pod-1{
+    height: 180px;
+}
+.product-image .pod-2{
+    height: 200px;
+}
+
+.product-image{
+    justify-content: center;
+}
+:root{
+    --color-131921: #131921;
+    --color-3b4149: #3b4149;
+    --color-febd69: #febd69;
+    --color-232f3e:#232f3e;
+    --color-bf4800: #bf4800;
+    --color-f5f5f7:#f5f5f7;
+    --color-ededed:#ededed;
+
+  }
+h6{
+    color: #bf4800;
+    font-size: 13px;
+}
+h5{
+    font-size: 15px;
+    color: #1c1c1b;
+}
+p{
+    color: #1c1c1b;
+
+}
+.blog-card{
+    background-color: white;
+    border-radius: 10px;
+}
+.content{
+    padding: 15px;
+}
+.product-card{
+    box-shadow: 0 0 10px #0000001a;
+    overflow: hidden;
+
+}
+.action{
+    top:14%;
+    right: -23px;
+    transition: 0.3s;
+}
+.wishlist{
+    top:5%;
+    right: 23px;
+}
+    .productlap-card .productlap-image img {
+        object-fit: contain;
+    }
+    .productlap-image img{
+        width: 80%;
+    }
+   
+    .productlap-image .pod-1{
+        height: 180px;
+    }
+    .productlap-image .pod-2{
+        height: 180px;
+    }
+    
+    .productlap-image{
+        justify-content: center;
+    }
+    :root{
+        --color-131921: #131921;
+        --color-3b4149: #3b4149;
+        --color-febd69: #febd69;
+        --color-232f3e:#232f3e;
+        --color-bf4800: #bf4800;
+        --color-f5f5f7:#f5f5f7;
+        --color-ededed:#ededed;
+    
+      }
+    h6{
+        color: #bf4800;
+        font-size: 13px;
+    }
+    h5{
+        font-size: 15px;
+        color: #1c1c1b;
+    }
+    p{
+        color: #1c1c1b;
+    
+    }
+    .blog-card{
+        background-color: white;
+        border-radius: 10px;
+    }
+    .content{
+        padding: 15px;
+    }
+    .productlap-card{
+        box-shadow: 0 0 10px #0000001a;
+        overflow: hidden;
+    
+    }
+    .action{
+        top:14%;
+        right: -23px;
+        transition: 0.3s;
+    }
+    .wishlist{
+        top:5%;
+        right: 23px;
+    }
+    .laptop{
+    background-color: rgb(240, 236, 245);
+
+    }
+    .productlap-card{
+    background-color: rgb(248, 246, 251);
+
+    }
+
+                               /* PHONE */
+.phone{
+    background:#e2dfe7;
+}                             
+.phone .product-image img{
+    width: 65%;
+}                               
+.phone .product-image .ip-13{
+    width: 50%;
+}
+.phone .product-image .samsung{
+    width: 80%;
+}
+.phone .home-page-2{
+    background-color: rgba(255, 251, 251, 0.849);
+    margin-bottom: 30px;
+}
+.phone .product-details{
+    background-color: #f4efefbd;
+   }
+
+
+                                /* WATCH */
+
+.watch{
+    background:#e2dfe7;
+
+}
+.watch .product-details{
+ background-color: #f4efefbd;
+}
+.watch .img{
+    text-align: center;
+    opacity: 0.6;
+    filter: alpha(opacity=40);
+}
+.watch .product-image img{
+    width: 70%;
+
+}
+.watch .product-image .watchsm{
+    width: 47%;
+}
+.watch .product-image .watchbg{
+    width: 100%;
+}
+.watch .home-page-2{
+    background-color: #ffffffd0;
+
+    margin-bottom: 40px;
+}
+
+                     /* LAPTOP */
+
+.laptop .home-page-2{
+    background-color: #ffffffd0;
+    margin-bottom: 40px;
+
+
+}
+
+                   /* HEADPHONE */
+.headphone{
+    background:#f0eef4;
+
+}
+.headphone .product-image img{
+    width: 75%;
+
+}
+.headphone .vid{
+    width: 100%;
+}
+.headphone .earphone h2{
+    color: white;
+    top: 50%;
+}
+.headphone .earphone h4{
+    color: white;
+    top: 60%;
+}
+.headphone .home-page-2{
+    background-color: rgba(255, 251, 251, 0.773);
+    margin-bottom: 30px;
+}
+
+                    /* TABLETS */
+.tablets h4{
+font-size:20px
+}
+.tablets h2{
+    bottom: 10%;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.tablets{
+    margin-bottom: 150px;
+
+}

@@ -1,0 +1,17 @@
+.carousel{
+    margin:50px;
+    width: 80%;
+   
+}
+.carousel-item img{
+    height: 8vh;
+}
+.store-wrapper{
+    background-color: rgb(240, 236, 245);
+
+
+}
+#carouselExampleControls1{
+    background: rgb(225, 227, 229);
+
+}
